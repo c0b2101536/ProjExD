@@ -144,7 +144,7 @@ if __name__ == "__main__":
     ### 画面初期化
     pygame.init()
     surface = pygame.display.set_mode((WIDTH, HEIGHT))
-    font = pygame.font.Font(None, F_SIZE)
+    font = pygame.font.Font(None, F_SIZE)#a
 
     main()
     
